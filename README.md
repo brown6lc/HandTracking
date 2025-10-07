@@ -1,1 +1,1 @@
-Python script to track hands and show live angle data using Google Mediapipe. Outputs angles to console in real time and after program is closed outputs angle data in a .CSV
+This project utilizes Google MediaPipe and OpenCV python libraries to perform real time handtracking and joint-angle approximation. This data is then sent to an arduino which translates provided angle data into servo rotations, which are embedded in a 3D printed robotic hand. 3D printed components are included in the "3D files" folder.
